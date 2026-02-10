@@ -1,9 +1,12 @@
-import { useState } from 'react';
+import { useState, useEffect} from 'react';
 import { Users, Megaphone, Calendar, GraduationCap, BarChart, Handshake, Code, ChevronDown, ChevronUp } from 'lucide-react';
 
 export default function TeamPage() {
   const [expandedMember, setExpandedMember] = useState<number | null>(null);
 
+  useEffect(() => {     // ← NEW LINES 6-9
+    document.title = "Team | HAY Campaign";
+  }, []);
   const teamMembers = [
     {
       name: 'Jas Uthayaseelan',
