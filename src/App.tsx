@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Navigation from './components/Navigation';
 import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
-import StaffPage from './components/StaffPage';
+import TeamPage from './components/TeamPage';
 import ContactPage from './components/ContactPage';
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         return <HomePage />;
       case 'about':
         return <AboutPage />;
-      case 'staff':
-        return <StaffPage />;
+      case 'team':
+        return <TeamPage />;
       case 'contact':
         return <ContactPage />;
       default:

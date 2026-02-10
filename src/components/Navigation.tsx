@@ -12,7 +12,7 @@ export default function Navigation({ currentPage, onNavigate }: NavigationProps)
   const navItems = [
     { name: 'Home', path: 'home' },
     { name: 'About', path: 'about' },
-    { name: 'Staff', path: 'staff' },
+    { name: 'Team', path: 'team' },
     { name: 'Contact', path: 'contact' },
   ];
 
