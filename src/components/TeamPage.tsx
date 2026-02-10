@@ -4,9 +4,7 @@ import { Users, Megaphone, Calendar, GraduationCap, BarChart, Handshake, Code, C
 export default function TeamPage() {
   const [expandedMember, setExpandedMember] = useState<number | null>(null);
 
-  useEffect(() => {     // ← NEW LINES 6-9
-    document.title = "Team | HAY Campaign";
-  }, []);
+  
   const teamMembers = [
     {
       name: 'Jas Uthayaseelan',
@@ -157,7 +155,7 @@ export default function TeamPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center mb-16">
           <h1 className="text-5xl md:text-6xl font-black text-gray-900 mb-6">
-            Meet <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500 bg-clip-text text-transparent">Our Team!</span>
+            Meet Our <span className="bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500 bg-clip-text text-transparent">Team!</span>
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Meet the passionate audiology students leading the HAY campaign to protect youth hearing health across Australia
