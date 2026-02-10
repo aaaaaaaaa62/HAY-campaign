@@ -7,7 +7,7 @@ export default function StaffPage() {
   const teamMembers = [
     {
       name: 'Jas Uthayaseelan',
-      role: 'Campaign Lead',
+      role: 'Founder and Campaign Lead',
       icon: Users,
       color: 'blue',
       image: '/Screenshot_2026-02-03_at_11.57.26.png',
