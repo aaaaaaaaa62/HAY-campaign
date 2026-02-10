@@ -39,7 +39,7 @@ export default function HomePage() {
             <img
               src="/HAY-LOGO-GIF.gif"
               alt="HAY! Logo"
-              className="w-56 h-auto drop-shadow-2xl"
+              className="w-56 h-auto drop-shadow-2xl mix-blend-multiply"
             />
           </div>
           <h1 className="text-6xl md:text-8xl font-black text-center mb-4 bg-gradient-to-r from-blue-600 via-cyan-500 to-teal-500 bg-clip-text text-transparent">
